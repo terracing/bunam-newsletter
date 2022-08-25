@@ -1,13 +1,82 @@
 <!doctype html>
 <html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/dist/output.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/css/newsletter.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/dist/favicon.png" sizes="32x32">
+    <title>B@UNAM & MOOC - Newsletter</title>
 </head>
-<body class="font-sans">
-  <h1 class="text-3xl">
-    Hello world!
-  </h1>
+
+<body>
+    <header>
+        <div id="sm" class="flex items-center p-2">
+            <div class="flex w-1/2">
+                <a href="https://www.unam.mx/" target="_blank" class="mx-4"><img src="/dist/images/unam_iso.svg"
+                        width="41" alt="Universidad Nacional Autónoma de México"></a>
+                <a href="https://cuaieed.unam.mx/" target="_blank"><img src="/dist/images/cuaieed_iso.svg" width="60"
+                        alt="Coordinación de Universidad Abierta, Innovación Educativa y Educación a Distancia"></a>
+            </div>
+            <div class="flex w-1/2 justify-end">
+                <a href="https://www.bunam.unam.mx/" target="_blank"><img src="/dist/images/bunam_mooc.svg" width="145"
+                        alt="Bachillerato a distancia & MOOC"></a>
+            </div>
+        </div>
+    </header>
+    <section class="pt-20">
+        <h1 class="text-cuaieed-white text-3xl drop-shadow text-center mb-10">entérate antes que nadie</h1>
+        <p class="text-cuaieed-white text-xl text-center drop-shadow mb-10">suscríbete para recibir novedades del
+            Bachillerato a Distancia</p>
+        <!-- Begin Mailchimp Signup Form -->
+        <div id="mc_embed_signup">
+            <form action="https://unam.us1.list-manage.com/subscribe/post?u=e56a4db02fc68324b8dae20dc&amp;id=953f7f80aa&amp;f_id=00c870e2f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                class="validate" target="_self">
+                <div class="mc-field-group">
+                    <label for="mce-EMAIL">Correo electrónico</label>
+                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
+                </div>
+                <div class="mc-field-group">
+                    <label for="mce-FNAME">Nombre </label>
+                    <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+                    <span id="mce-FNAME-HELPERTEXT" class="helper_text"></span>
+                </div>
+                <input type="hidden" name="tags" value="4517383">
+                <input type="hidden" name="b_e56a4db02fc68324b8dae20dc_953f7f80aa" tabindex="-1" value="">
+                <div class="text-right">
+                    <button type="submit" id="mc-embedded-subscribe"
+                        class="inline-block bg-cuaieed-gold p-2 text-cuaieed-white rounded-sm my-2">me quiero
+                        suscribir</button>
+                </div>
+            </form>
+        </div>
+        <!--End mc_embed_signup-->
+    </section>
+    <footer>
+        <div class="flex">
+            <div class="">
+                <h6>Elaborado por:</h6>
+                <a href="https://www.bunam.unam.mx/" target="_blank"><img src="/dist/images/bunam_mooc.svg" width="145"
+                    alt="Bachillerato a distancia & MOOC"></a>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="https://lib.cuaieed.unam.mx/portales/directorio-unam-cuaieed.html" target="_blank"> Directorio</a></li>
+                    <li><a href="http://www.transparencia.unam.mx/" target="_blank"> Transparencia</a></li>
+                    <li><a href="" target="_blank"> Aviso de privacidad</a></li>
+                    <li><a href="" target="_blank"> Protocolo sanitario</a></li>
+                    <li><a href="" target="_blank"> Protocolo de género</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="" target="_blank"></a></li>
+                    <li><a href="" target="_blank"></a></li>
+                    <li><a href="" target="_blank"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
